@@ -4,15 +4,21 @@
 Miço, sizin Microsoft Teams'deki sanal asistanınız.
 
 
-<img src="https://raw.githubusercontent.com/msft-ai-demos/MICO-BOT/main/micologo_small_png.png" width=15% height=15%>
+<img src="https://github.com/msft-ai-demos/MICO-BOT/blob/main/media/micologo_small.png?raw=true" width=15% height=15%>
 
-Miço sana bir çok konuda yardımcı olabilecek ve seninle sohbet edebilecek bir sanal asistandır. Ona Türkiye'deki hava durumu bilgilerinden, döviz kurlarına ve dönüşümlerine; güncel haberlerden, ansiklopedi tanımını merak ettiğin bir konuya, kişiye, eşyaya kadar bir çok şeyi sorabilirsin. Onunla Teams'den çıkmadan kısa çeviriler yapabilir, ve ona feedback verebilirsin. Üstelik Miço'yu kendi Teams'ine de kurabilirsin. 
+Miço size bir çok konuda yardımcı olabilecek ve sohbet edebilecek bir sanal asistandır. Ona Türkiye'deki hava durumu bilgilerinden, döviz kurlarına ve dönüşümlerine; güncel haberlerden, ansiklopedi tanımını merak ettiğiniz bir konuya, kişiye, eşyaya kadar bir çok şeyi sorabilirsiniz. Onunla Teams'den çıkmadan kısa çeviriler yapabilir, ve ona feedback verebilirsiniz. Üstelik Miço'yu kendi Teams'inizde de kurabilirsiniz. 
 
-<img src="https://user-images.githubusercontent.com/14835957/133957964-bb5dc633-1aa5-4924-affc-0d50433030b9.jpeg" width=25% height=25%>
-<img src="https://user-images.githubusercontent.com/14835957/133957977-61e3c06c-6e31-4b71-b36a-adc002e70fe8.jpeg" width=25% height=25%>
-<img src="https://user-images.githubusercontent.com/14835957/133957989-b65c0daa-d799-4b90-9acf-147d525bc60e.jpeg" width=25% height=25%>
-<img src="https://user-images.githubusercontent.com/14835957/133958000-b8bac881-d2cb-4b77-a27c-c8c0075b09c5.jpeg" width=25% height=25%>
-<img src="https://user-images.githubusercontent.com/14835957/133958007-8dff7f60-0c35-4545-acf8-c974dc00e0a0.jpeg" width=25% height=25%>
+
+<p align="middle">
+  <img src="https://user-images.githubusercontent.com/14835957/133957977-61e3c06c-6e31-4b71-b36a-adc002e70fe8.jpeg" width=32% height=32% /> 
+  <img src="https://user-images.githubusercontent.com/14835957/133958007-8dff7f60-0c35-4545-acf8-c974dc00e0a0.jpeg" width=32% height=32% /> 
+  <img src="https://user-images.githubusercontent.com/14835957/133957989-b65c0daa-d799-4b90-9acf-147d525bc60e.jpeg" width=32% height=32% /> 
+</p>
+
+<p align="left">
+  <img src="https://user-images.githubusercontent.com/14835957/133957964-bb5dc633-1aa5-4924-affc-0d50433030b9.jpeg" width=32% height=32% />
+  <img src="https://user-images.githubusercontent.com/14835957/133958000-b8bac881-d2cb-4b77-a27c-c8c0075b09c5.jpeg" width=32% height=32% />
+</p>
 
 ## [Gereksinimler](#miçoyu-nasıl-kullanabilirim-gereksinimler)
 *Miço'yu kullanabilmeniz için gerekli servisler.*
@@ -48,7 +54,7 @@ Size uygun işletim sistemini seçerek [Bot Composer](https://docs.microsoft.com
 
 Daha sonra Bot Composer'ı indirip kurabilirsiniz.
 
-<img src="https://raw.githubusercontent.com/msft-ai-demos/MICO-BOT/main/Additional/ss1.png" width=25% height=25%>
+<img src="https://raw.githubusercontent.com/msft-ai-demos/MICO-BOT/main/Additional/ss1.png" width=40% height=40%>
 
 ### 2.1. Node.js ve npm
 Node.js JavaScript platformunu ve npm paketini yüklemeniz Composer'ın Node.js modellerini çalıştırabilmesine imkan tanır. [Node.js LTS 14.x](https://nodejs.org/)'i npm ile birlikte indirin. Bu Composer'ı kullanabilmek için zorunlu bir servistir.
@@ -58,7 +64,7 @@ Node.js JavaScript platformunu ve npm paketini yüklemeniz Composer'ın Node.js 
 
 Bot Composer'ı çalıştırın.
 
-<img src="https://raw.githubusercontent.com/msft-ai-demos/MICO-BOT/main/Additional/ss2.png" width=50% height=50%>
+<img src="https://raw.githubusercontent.com/msft-ai-demos/MICO-BOT/main/Additional/ss2.png" width=80% height=80%>
 
 ## 3. Language Understanding Service (LUIS)
 Language Understanding (LUIS), kullanıcıların doğal dil kullanarak uygulamalarınız, botlarınız ve IoT cihazlarınızla etkileşim kurmasına olanak sağlayan bir doğal dil anlama (NLU) yapay zeka hizmetidir. [LUIS](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/sign-in-luis-portal) hizmetini kullanmaya başlayın.
@@ -72,7 +78,8 @@ Bing Haritalar, bir web harita hizmeti arama motorudur. [Bing Haritaları](https
 ## 6. Bing Search
 Bing, Microsoft'un çoklu dilde hizmet veren arama motorudur. Bing'i botunuzda kullanabilmek için Azure Portal üzerinden [Bing Arama Kaynağı](https://docs.microsoft.com/en-us/bing/search-apis/bing-web-search/create-bing-search-service-resource#create-your-bing-resource)'nı oluşturun.
 
-
+## 7. Merkez Bankası API -Optional
+Botun güncel döviz bilgilerine ulaşabilmesi için [Merkez Bankası EVDS Web Servis Dokumantasyonu](https://evds2.tcmb.gov.tr/help/videos/EVDS_Web_Servis_Kullanim_Kilavuzu.pdf)'nu takip ederek key oluşturabilirsiniz. 
 
 
 # Miço'yu Nasıl Kullanabilirim : Kurulum
@@ -85,19 +92,27 @@ Extract ettiğiniz bot dosyasını composerı açarak, composer içerisinden se�
 
 Daha Sonra Miço'yu Bot Composer içerisinden açabilmelisiniz.
 
-<img src="https://user-images.githubusercontent.com/14835957/131674595-f2622de3-92e8-46e5-a790-972f8dcf9d56.png" width=50% height=50%>
+<img src="https://user-images.githubusercontent.com/14835957/131674595-f2622de3-92e8-46e5-a790-972f8dcf9d56.png" width=80% height=80%>
 
 
 ## 2. Miço'yu Publish Edin
 
-Miço'yu publish edebilmek için yapmanız gereken ilk şey, bir Publishing Profile oluşturmak. Bu adımı tamamen composer içerisinden tamamlayabilirsiniz.
+Miço'yu publish edebilmek için yapmanız gereken ilk şey, bir Publishing Profile oluşturmak. Bu adımı tamamen composer içerisinden tamamlayabilirsiniz. 
+
 ![image](https://user-images.githubusercontent.com/14835957/133958169-b4069ba8-4acd-4053-887f-b2daf5faeac3.png)
 
+Eğer LUIS, QnA maker gibi kaynakları Azure Portal'da çoktan oluşturduysanız, import existing resources seçeneğinden kaynaklarınızın endpointlerini ve keylerini doldurarak bir Publishing Profile oluşturabilirsiniz. Publishing profile oluştururken, luis bağlantısını kurmak için, görseldeki gibi "luisResource" bölümüne luis prediction resource ismini eklemelisiniz.
+
+![image](https://user-images.githubusercontent.com/25666677/142438454-9f56e3e1-f03f-4428-ada9-f3ae321347e4.png)
+
+Eğer daha önce hiç kaynak açmadıysanız Create new resources seçeneğiyle bu kaynakları Bot Composer üzerinden oluşturabilir ve Publishing Profile'ınıza ekleyebilirsiniz.
+Daha sonra Publishing Profile'ınızı seçerek Publish selected bots seçeneğine tıklamanız yeterli olacaktır. 
 
 ## 3. Miço'yu Teams'e Ekleyin
 
-Publish etmiş olduğunuz botu Teams'e ekleyebilmeniz için tamamlamanız gereken bir kaç adım kaldı. Bu adımları Azure Portal içerisinden tamamlayacağız.
+Publish etmiş olduğunuz botu Teams'e ekleyebilmeniz için tamamlamanız gereken bir kaç adım kaldı. Bu adımları Azure Portal içerisinden tamamlayacağız. Publish edilmiş botunuzu Azure Portal'dan açtığınızda Channels tabında botunuzu entegre edebileceğiniz kanalları görebilirsiniz. Bu kanallardan Teams'i seçerek botunuzu Teams üzerinde konumlandırabilirsiniz. 
 
+![image](https://user-images.githubusercontent.com/25666677/142224934-07e6cc97-d9e0-4304-927d-08ca9c905fad.png)
 
 
 # Yeni Bir Niyet ve Dialog Nasıl Eklenir?
@@ -113,7 +128,7 @@ Miço'ya yeni bir özellik eklerken ilerleyişiniz konusunda rehber olması içi
 
 Niyetleri oluştururken ister Bot Composer içerisinden, ister LUIS'in kendi arayüzünden oluşturabilirsiniz. Bu örnekte Hava Durumu niyeti LUIS'in kendi arayüzü olan luis.ai sitesi üzerinden oluşturulacaktır. [LUIS.AI](https://www.luis.ai)
 
-<img src="https://user-images.githubusercontent.com/14835957/133092774-0df8fd6d-915b-4fdd-a7a5-10f23a56593a.png" width=50% height=50%>
+<img src="https://user-images.githubusercontent.com/14835957/133092774-0df8fd6d-915b-4fdd-a7a5-10f23a56593a.png" width=80% height=80%>
 
 Luis Portalı içerisinde yapmanız gereken ilk şey, +New App diyerek yeni bir proje oluşturmak. MicoIntents isimli bir proje oluşturabilirsiniz. Bu app i oluştururken sizden Azure Portal üzerinden açmış olduğunuz LUIS servisine dair LUIS Prediction Resource'unu seçmeniz istenecek. 
 
@@ -135,7 +150,7 @@ Bunun için bir entity oluşturmalıyız.
 
 Soldaki Entities kısmına gelerek, + Create Entity diyebiliriz.
 
-<img src="https://user-images.githubusercontent.com/14835957/133101481-441377b8-f5a1-4fa0-9c83-b20dcaea36c8.png" width=50% height=50%>
+<img src="https://user-images.githubusercontent.com/14835957/133101481-441377b8-f5a1-4fa0-9c83-b20dcaea36c8.png" width=60% height=60%>
 
 Burada karşımıza bir kaç seçenek çıkmakta.
 
@@ -146,7 +161,7 @@ Burada karşımıza bir kaç seçenek çıkmakta.
 
 3. Miçoya ekleyeceğimiz ilk Entity, kullanıcıdan gelebilecek zaman aralığı olacak. Kullanıcı cümle içinde bir zaman aralığı vermezse, ona bugünün ve sonraki günlerin hava durumunu verebiliriz. Ama kullanıcı yarını öğrenmek istiyorsa, ya da haftalık detaylı sonuçları görmek istiyorsa, bunu da anlamalıyız. Zaman aralığı entitysi için Liste tipinde entity oluşturacağız. Liste'nin üç elemanı olacak: Bugün, Yarın, Haftalık.
 
-<img src="https://user-images.githubusercontent.com/14835957/133231586-f520fdf8-154d-45f4-af52-614dfce67475.png" width=50% height=50%>
+<img src="https://user-images.githubusercontent.com/14835957/133231586-f520fdf8-154d-45f4-af52-614dfce67475.png" width=70% height=70%>
 
 4. Bir sonraki enity'miz ise, kullanıcının hava durumunu sorarken şehri de belirtme ihtimaline karşın üreteceğimiz Şehir entity'si olacak. Bu entity'yi Machine Learned entity tipinde oluşturacağız, bu sayede, kullanıcının girebileceği tüm şehir örneklerini LUIS'e vermeden, onun öğrenme yeteneğinden faydalanarak, sadece bir kaç örnekle ona şehir kısmını yakalamayı öğretebiliriz.
 
@@ -246,23 +261,27 @@ Kullanıcıdan cümle içerisinde gelen entityleri, bizim durumumuzda varsa şeh
 
 'turn.recognized.entities' kavramını, dialog.entity isimli bir property'ye atadıktan sonra, bu şekilde de kontrol edebiliriz. Şimdi yapmamız gereken, bir If-Else koşulu oluşturmak.
 
-![image](https://user-images.githubusercontent.com/14835957/133773313-8073613b-ee49-412e-9202-9192996d6942.png)
+
+<img src="https://user-images.githubusercontent.com/14835957/133773313-8073613b-ee49-412e-9202-9192996d6942.png" width=30% height=30%>
+
 
 Bu blok, True dönüyorsa, tanınan entitylerimiz Şehir bilgisi içeriyor, False dönüyorsa, Şehir bilgisi içermiyor demektir. Aşağıdaki akışımızı buna göre düzenleyebiliriz.
 
 Kullanıcı şehir bilgisi vermediyse, yani False'a girdiysek, hangi şehrin hava durumuna bakmak isteediğini biz ona sormalıyız, belki bir kaç öneri ile!
 
-![image](https://user-images.githubusercontent.com/14835957/133773753-084b5d4d-ca52-4b13-a29e-8f653c26ccaf.png)
+<img src="https://user-images.githubusercontent.com/14835957/133773753-084b5d4d-ca52-4b13-a29e-8f653c26ccaf.png" width=40% height=40%>
 
-![image](https://user-images.githubusercontent.com/14835957/133773790-517af25a-e7c3-47ba-b513-98087a00931e.png)
+
+<img src="https://user-images.githubusercontent.com/14835957/133773790-517af25a-e7c3-47ba-b513-98087a00931e.png" width=60% height=60%>
+
 
 ### Kullanıcı Zamar Aralığı Belirtmiş mi?
 
 Kontrol etmemiz gereken ikinci varlık, kullanıcının zaman belirtip belirtmediği. İlk olarak Şehir durumuna baktığımız için, Zaman kontrolünü iki yerde de yapmalıyız, Şehir kontrolünden True dönüyorsa da, False dönüyorsa da.
 
-![image](https://user-images.githubusercontent.com/14835957/133773569-bd04dc82-d6e5-4bc9-b7c7-8063e1184eab.png)
+<img src="https://user-images.githubusercontent.com/14835957/133773569-bd04dc82-d6e5-4bc9-b7c7-8063e1184eab.png" width=40% height=40%>
 
-![image](https://user-images.githubusercontent.com/14835957/133773610-efb69123-f368-4ea1-b122-e18787f9cd2f.png)
+<img src="https://user-images.githubusercontent.com/14835957/133773610-efb69123-f368-4ea1-b122-e18787f9cd2f.png" width=40% height=40%>
 
 Kullanıcı zaman aralığı belirtmediyse, ona bir daha sormamıza gerek yok. Bugünün ve ilerleyen günlerin hava durumunu ona dönebiliriz.
 
@@ -275,12 +294,17 @@ Bu kısım için [Azure Maps API Dökümantasyonu](https://docs.microsoft.com/en
 
 İlk olarak gelen şehir bilgisinden, bu şehrin koordinatları çekilmekte.
 
-![image](https://user-images.githubusercontent.com/14835957/133774679-72c8852f-2c84-4a47-b7de-f27f3b4ea9ed.png)
+<img src="https://user-images.githubusercontent.com/14835957/133774679-72c8852f-2c84-4a47-b7de-f27f3b4ea9ed.png" width=50% height=50% /> 
 
 Koordinatlar elde edildikten sonra, bu koordinat bilgisi ile hava durumuna sorgu atabiliriz.
 
-![image](https://user-images.githubusercontent.com/14835957/133774824-e4d57c5c-ba64-4d4c-91a7-7f7ac95b5fc5.png)
 
+<img src="https://user-images.githubusercontent.com/14835957/133774824-e4d57c5c-ba64-4d4c-91a7-7f7ac95b5fc5.png" width=50% height=50% /> 
+
+
+## Not
+
+Mevcut uygulama Bot Composer v2.0.0 içerisinde çalışmaktadır. Güncellemeler için [linkini](https://staticsint.teams.cdn.office.net/evergreen-assets/safelinks/1/atp-safelinks.html) takip edebilirsiniz.
 
 ## Lisans
 
